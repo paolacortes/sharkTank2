@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body {
+  background-color: #192236;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+	align-content: center;
+  color: white;
+
+}
+
+#logo {
+  width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px solid #44d7a8;
+}
+
+#intro-sentence {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  margin-top: 10px;
+  background-color: #44d7a8;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#result-texts {
+  opacity: 0;
+} 

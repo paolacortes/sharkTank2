@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="blackbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Black Box</title>
+</head>
+<body>
+  <img src="http://techteach.us/Web2019/Ktenzin/WCP2018/Projects/SharkTank2/BlackboxL.png" alt="A placeholder" id="logo">
+  
+  <hr>
+  <p id="intro-sentence">Welcome to Black Box. In this website, you'll be able to create your own A.I.. For this scenario, you have a max of 20 resource points available. Use those points to increase a certain aspect of your A.I..</p>
+  <div id="formContainer">
+      Data Management: <input type="number" name="manage" min="1" max="5" id="management"><br>
+      Resilience: <input type="number" name="resilient" min="1" max="5" id="resilience"><br>
+      Performance: <input type="number" name="perform" min="1" max="5" id="performance"><br>
+      Measurement: <input type="number" name="measure" min="1" max="5" id="measurement"><br>
+      Continuous: <input type="number" name="continue" min="1" max="5" id="continuous"><br>
+  </div>
+  <button type="button" id="submit">Submit</button>
+  <div id="result-texts">
+    <p class="result-texts" id="data"></p>
+    <p class="result-texts" id="resilient"></p>
+    <p class="result-texts" id="perform"></p>
+    <p class="result-texts" id="measure"></p>
+    <p class="result-texts" id="continue"></p>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="blackbox.js"></script>
+</html>
