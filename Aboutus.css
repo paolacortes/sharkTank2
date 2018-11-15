@@ -1,68 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
 
-body{
-	background-color: #304269;
-	color: #FFFFFF
+#aboutContainer {
+	
+	width:100%;
+	padding:20px;
 }
-h1{
+
+.title123{
+		font-family: arial;
+		font-size: 50px;
+	border-bottom:1px solid gray;
+}
+
+.trCSS{
+   	padding:20px;
+	font-family: arial;
+	font-size: 25px;
+	
+}
+
+.tdCSS{
+  	padding:20px;
+	font-family: arial;
+	font-size: 25px;
+
+}
+
+.pCSS{
+	padding:20px;
+	font-family: arial;
+	font-size: 20px;
+	border-left:1px solid gray;
+	
+}
+
+#titlept2{
+	
+	font-family: arial;
 	font-size: 25px;
 }
-p{
-	font-size:20px
-}
-#img1{
-	position: absolute;
-	left:20px;
-	border: #F26B62 3px solid;
-	border-width:5px;
-		
-}
-#img2{
-	position: absolute;
-	right: 15px;
-	border: #F26B62 3px solid;
-	border-width:5px;
-}
-#img3{
-	position:absolute;
-	left:20px;
-	bottom: 150px;
-	border: #F26B62 3px solid;
-	border-width:5px;
-}
-#img4{
-	position: absolute;
-	right:50px;
-	bottom: 150px;
-	border: #F26B62 3px solid;
-	border-width: 5px;
-}
-#p1{
-	position: absolute;
-	left:20px;
-	top:270px
-}
-#p2{
-	position: absolute;
-	right:10px;
-	top:270px
-}
-#p3{
-	position: absolute;
-	left: 20px;
-	bottom: 80px
-}
-#p4{
-	position: absolute;
-	right: 10px;
-	bottom: 80px;
-}
-#MainImg{
-	position: absolute;
-	bottom: 350px;
-	left:700px
 
+.images {
+	border-radius: 100px;
+	width:150px;
+	
 	
 }
-
-
-	
