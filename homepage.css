@@ -1,17 +1,19 @@
 body{
-  color:white;
-  background-image: url("sharkTank_bg.jpeg");
+  color:black;
   background-color: white;
   height: 920px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family:sans-serif;
-  margin:20;
+  margin:0;
   padding:0;
-
 }
 
+#video{
+  background-size:cover;
+  margin-top:-100px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,7 +23,6 @@ ul {
     position:fixed;
     top:0;
     width:100%;
-    text-decoration:underline;
   }
 li {
   float:left;
@@ -49,17 +50,20 @@ li a:hover {
   color:black;
 }
 
-.divContainers{
+#productContainer{
   color:white;
-  height:900px;
+  height:1000px;
   width:900px;
   border-radius:10px;
-  margin:60px;
-  padding:10px;
+  margin:20px;
+  padding:20px;
   padding-left:20px;
+
+
+
 }
 
-.inFo{
+#productInfo{
   color:white;
   height:500px;
   width:500px;
@@ -70,6 +74,30 @@ li a:hover {
   background-color: rgba(0,0,0,0.6);
 }
 
+#demo{
+  color:white;
+  height:400px;
+  width:400px;
+  border-radius:10px;
+  margin:60px;
+  padding:10px;
+  padding-left:20px;
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+#about{
+  color:white;
+  height:400px;
+  width:400px;
+  border-radius:10px;
+  margin:60px;
+  padding:10px;
+  padding-left:20px;
+  background-color: rgba(0,0,0,0.6);
+
+}
+
 .text{
-  font-size: 18px;
+  font-size: 16px;
 }
