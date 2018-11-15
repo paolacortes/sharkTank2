@@ -1,0 +1,128 @@
+body{
+  color:black;
+  background-color: white;
+  height: 920px;
+  background-position: center;
+  text-align: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:sans-serif;
+  margin:0;
+  padding:0;
+
+}
+
+#video{
+  background-size:cover;
+  margin-top:-50px;
+  margin-left:-50px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+li {
+  float:left;
+  height:70px;
+  width:auto;
+
+}
+.navRight{
+  float:right;
+
+}
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 20px 40px;
+ text-decoration: none;
+ }
+li a:hover {
+  background-color:white;
+  color:black;
+}
+.active{
+  background-color:white;
+  color:black;
+}
+
+.div-white-Containers{
+  color:black;
+  height:1000px;
+  width:900px;
+  margin:0px;
+  padding:20px;
+  padding-left:20px;
+}
+
+.div-black-Containers{
+  background-color:black;
+  color:white;
+  height:1000px;
+  width:100%;
+  margin:0px;
+  padding:20px;
+  padding-left:20px;
+}
+
+.inFo{
+  color:black;
+  height:900px;
+  width:100%;
+  margin:0px;
+  padding:20px;
+  padding-left:20px;
+}
+
+.text{
+  font-size: 16px;
+}
+
+/* CSS for Demo */
+
+#logo {
+  width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  width:100%;
+  border: 4px solid black;
+}
+
+#intro-sentence {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  margin-top: 10px;
+  background-color:black;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#result-texts {
+  opacity: 0;
+}
