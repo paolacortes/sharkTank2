@@ -126,3 +126,56 @@ input {
 #result-texts {
   opacity: 0;
 }
+
+		#textDiv {
+		  background-color:rgba(48,66,105,.5);
+			width:49.99999%;
+			padding:12px 35px!important;
+			border-radius:20px;
+			text-align: center;
+			float:left;
+		
+		}
+	
+		#h1Title{
+			color:white;
+			font-family: arial;
+			font-size: 45px;
+			font-weight: 100;
+			border-bottom:1px solid #e2e2e2;
+		}
+	
+		#aboutContainer{
+			padding-top:50px!important;
+			padding-bottom:50px!important;
+			display:block;
+      
+			
+		}
+		
+		#productImgDiv {
+			width:30%;
+			height:auto;
+			padding-left:950px;
+			/*padding-top:150px;*/
+	
+			}
+		
+		#productImg {
+		
+		max-width:30%;
+		height:auto;
+		position:absolute;
+			
+		}
+		.titles {
+			color:white;
+			font-family: arial;
+			font-size: 30px;
+			font-weight: 100;
+		}
+		.text {
+		  	color:white;
+			font-family: arial;
+			font-size: 17px;
+		}
