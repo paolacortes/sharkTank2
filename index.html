@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index.css">
+<script src="index.js" charset="utf-8"></script>
+<script src="jQuery_Library.js" charset="utf-8"></script>
+
+<!-- Demo -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Black Box Client </title>
+</head>
+<body>
+
+  <ul>
+    <li><img src="BlackboxL.png" height=100px width=150px alt="Black Box Logo"></li>
+    <li class="navRight"><a id="homeBTN" class="active" href="#homeContainer">Home</a></li>
+    <li class="navRight"><a id="productBTN" href="#productContainer">Product</a></li>
+    <li class="navRight"><a id="demoBTN" href="#demoContainer">Demo</a></li>
+    <li class="navRight"><a id="aboutBTN" href="#aboutContainer">About</a></li>
+
+  </ul>
+
+<br>
+<br>
+
+    <div id="homeContainer" width="100%" height="900px">
+        <div id="video">
+          <video src="http://techteach.us/Web2019/Ktenzin/WCP2018/Projects/SharkTank2/video.mp4" autoplay loop muted width="100%"></video>
+        </div>
+   </div>
+
+<!-- Code for Product Container -->
+
+   <div class="div-white-Containers" id="productContainer" width="100%" height="900px">
+     <div class="info-black"><h1> Uses </h1>
+            <div id="textDiv">
+              <h1 id="h1Title" >About Our Product</h1>
+              <h2 class="titles">Uses</h2>
+              <p class="text">
+                <strong>∙</strong> A helping hand around the house<br>
+                <strong>∙</strong> Military uses<br>
+                <strong>∙</strong> Medical uses<br>
+                <strong>∙</strong> Get information in an instant!<br>
+              </p>
+              <br>
+
+              <h2 class="titles">What it does</h2>
+              <p class="text">
+                <strong>∙</strong> The Black Box can be assigned tasks. <br>(Ex: Setting Alarm, Gathering Info)<br>
+                <strong>∙</strong> The purpose of the Black Box is to ease the hardships of everyday life and make it easier in a way.<br>
+                <strong>∙</strong> You can customize it to do anything you want, you just have to give it instructions verbally.<br>
+              </p>
+            </div>
+              <div id="productImgDiv">
+                <center>
+                <img src="blackBoxProduct.png" id="productImg">
+              </center>
+              </div>
+          </div>
+          </div>
+
+<!-- All code for Demo -->
+<center>
+  <div class="div-black-Containers" id="demoContainer" width="100%" height="900px">
+    <div class="info-white">
+      <h1 id=demo_h1 >Demo</h1>
+      <img src="http://techteach.us/Web2019/Ktenzin/WCP2018/Projects/SharkTank2/BlackboxL.png" alt="A placeholder" id="logo">
+
+      <hr>
+      <p id="intro-sentence">Welcome to Black Box. In this page, you'll be able to create your own A.I.. You have a maximum of 100 points. Use those points to increase a certain aspect of your A.I..</p>
+      <div id="formContainer">
+          Data Management: <input type="number" name="manage" min="1" max="5" id="management"><br>
+          Resilience: <input type="number" name="resilient" min="1" max="5" id="resilience"><br>
+          Performance: <input type="number" name="perform" min="1" max="5" id="performance"><br>
+          Measurement: <input type="number" name="measure" min="1" max="5" id="measurement"><br>
+          Continuous: <input type="number" name="continue" min="1" max="5" id="continuous"><br>
+      </div>
+      <button type="button" id="submit">Submit</button>
+      <div id="result-texts">
+        <p class="result-texts" id="data"></p>
+        <p class="result-texts" id="resilient"></p>
+        <p class="result-texts" id="perform"></p>
+        <p class="result-texts" id="measure"></p>
+        <p class="result-texts" id="continue"></p>
+      </div>
+  </div>
+</div>
+</center>
+
+<!-- Code for About Container -->
+<center>
+  <div class="div-white-Containers" id="aboutContainer" width="100%" height="900px">
+    <div class="info-black">
+
+        <h1 class="about_h1">Initial Floor Kids</h1>
+
+	       <p id="about_text">Know about the team who created the Black Box, and even contact us!</p>
+
+       <table id="about-table" align=center>
+          <tr>
+            <td>
+         <div class="team_photos">
+           <img src="jobN.jpg" alt="Job Nabong" style="width:100%">
+           <div class="container">
+             <p class="about-text-info">Job: Editor<br> jobnathaniel@gmail.com</p>
+           </div>
+         </div>
+       </td>
+
+
+       <td>
+         <div class="team_photos">
+           <img src="kevinR.jpg" alt="Kevin Ren" style="width:100%">
+           <div class="container">
+             <p class="about-text-info">Kevin: Desginer<br> kevinren1213@gmail.com</p>
+           </div>
+         </div>
+       </td>
+
+       <td>
+
+         <div class="team_photos">
+           <img src="bryanC.jpg" alt="Bryan Castro" style="width:100%">
+           <div class="container">
+             <p class="about-text-info">Bryan: Designer<br>bryan.castro@infotechhs.net</p>
+           </div>
+         </div>
+       </td>
+
+       <td>
+
+         <div class="team_photos">
+           <img src="jasonJ.jpg" alt="Jason Jerez" style="width:100%">
+           <div class="container">
+             <p class="about-text-info">Jason: Designer<br>jason.jerez@infotechhs.net</p>
+           </div>
+         </div>
+       </td>
+       </tr>
+     </table>
+    </div>
+  </div>
+
+
+</center>
+<script src="index.js"></script>
+<script src="jQuery_Library.js" charset="utf-8"></script>
+</body>
+</html>
